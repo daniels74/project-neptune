@@ -1,0 +1,15 @@
+/* style={{
+    marginTop: "50px",
+    width: "50%",
+    backgroundImage:"../../images/img-1.jpg",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+  }} */
+
+  .container_border {
+    margin-top: 50px;
+    width: 50%;
+    background-image: "../../images/img-1.jpg";  
+    background-position: center;
+    background-size: cover;
+  }

@@ -1,0 +1,20 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projects > h1 {
+    color: white;
+    position: relative;
+    top: 8vh;
+    margin-left: 5%;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem,16rem));
+    gap: 2rem;
+    justify-content: center;
+    position: relative;
+    top: 2vh;
+}
