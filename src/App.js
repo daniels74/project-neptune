@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from './components/Navbar/Navbar'
-import Footer from "./components/Footer/Footer";
+//import Footer from "./components/Footer/Footer";
 import Blank from "./components/Pages/Blank";
 import "./components/FontawesomeIcons";
 import Projects from "./components/Pages/Projects/Projects";
@@ -32,7 +32,7 @@ const App = () => {
           <Route exact path = "/Mailbox" element = { <Mailbox /> } />
           <Route exact path = "/Poolsides" element = { <Poolsides /> } />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </React.Fragment>
     );
 }

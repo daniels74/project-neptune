@@ -1,3 +1,8 @@
+.main {
+    background-color: rgb(6, 17, 26);
+    height: 100%;
+}
+
 .projects {
     display: flex;
     flex-direction: column;
