@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from './components/Navbar/Navbar'
 //import Footer from "./components/Footer/Footer";
-import Blank from "./components/Pages/Blank";
+import Home from "./components/Pages/Home";
 import "./components/FontawesomeIcons";
 import Projects from "./components/Pages/Projects/Projects";
 import Slide from "./components/Pages/Slide";
@@ -21,7 +21,7 @@ const App = () => {
       <React.Fragment>
         <Navbar />
         <Routes>
-          <Route exact path = "/" element = { <Blank /> } />
+          <Route exact path = "/" element = { <Home /> } />
           <Route exact path = "/Projects" element = { <Projects /> } />
           <Route exact path = "/Slide" element = { <Slide /> } />
           <Route exact path = "/Email" element = { <Email /> } />

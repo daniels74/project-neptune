@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { SliderData } from './SliderData';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import PropTypes from 'prop-types';
-
+import "./ImageSlider.css"
 // Slides.propTypes = {
 //     children: PropTypes.any,
 //     type: PropTypes.any,
