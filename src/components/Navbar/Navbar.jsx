@@ -8,8 +8,8 @@ const Navbar = () => {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   return (
-     <nav>
-      <div className="nav-container">
+    <nav className="navbar">
+      <div className="navbar-container">
         <a href="/" className="nav-logo" onClick={closeMobileMenu}>
           <h4>Landscapes</h4>
           <FontAwesomeIcon icon={"gem"}></FontAwesomeIcon>
@@ -19,20 +19,28 @@ const Navbar = () => {
         </div>
         <ul className={click ? "nav-list active" : "nav-list"}>
           <li className="nav-item">
-            <a href="/" className="nav-links">Home</a>
+            <a href="/" className="nav-links">
+              Home
+            </a>
           </li>
           <li className="nav-item">
-            <a href="Projects" className="nav-links">Projects</a>
+            <a href="Projects" className="nav-links">
+              Projects
+            </a>
           </li>
           <li className="nav-item">
-            <a href="Slide" className="nav-links">Products</a>
+            <a href="Slide" className="nav-links">
+              Products
+            </a>
           </li>
           <li className="nav-item">
-            <a href="Email" className="nav-links">Contact Now</a>
+            <a href="Email" className="nav-links">
+              Contact
+            </a>
           </li>
         </ul>
       </div>
-     </nav>
+    </nav>
   );
 };
 
