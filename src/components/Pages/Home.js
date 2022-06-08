@@ -11,7 +11,7 @@ const Home = () => {
     <>
       {/* <HeroSection /> */}
       <div className="home-container">
-        <video src="/videos/darkwaterfall.mp4" autoPlay loop muted />
+        {/* <video src="/videos/darkwaterfall.mp4" autoPlay loop muted /> */}
         <div className="home-top">
           <div className="hero-slider">
             <ImageSlider slides={SliderData} />
