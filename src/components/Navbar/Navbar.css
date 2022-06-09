@@ -88,7 +88,7 @@
     .nav-list {
       display: flex;
       flex-direction: column;
-      width: 70vw;
+      width: 100vw;
       height: 93vh;
       top: 7vh;
       position: absolute;
