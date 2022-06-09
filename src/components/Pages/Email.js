@@ -23,26 +23,26 @@ const Email = () => {
     <div
       className="container border"
       style={{
-        marginTop: "50px",
-        width: "50%",
-        backgroundImage:"../../images/img-1.jpg",
+        marginTop: "4rem",
+        width: "90%",
+        backgroundColor: "rgba(1,1,1,0.5)",
         backgroundPosition: "center",
         backgroundSize: "cover",
       }}
     >
-      <h1 style={{ marginTop: "25px" }}>Email Us</h1>
+      <h1 style={{ marginTop: "1rem", color: "whitesmoke" }}>Email Us</h1>
       <form
         className="row"
-        style={{ margin: "25px 85px 75px 100px" }}
+        style={{ margin: "1rem 1rem 2rem 1rem" }}
         onSubmit={sendEmail}
       >
-        <label>Name</label>
+        <label style={{color:"whitesmoke"}}>Name</label>
         <input type="text" name="name" className="form-control" />
 
-        <label>Email</label>
+        <label style={{color:"whitesmoke"}}>Email</label>
         <input type="email" name="user_email" className="form-control" />
 
-        <label>Message</label>
+        <label style={{color:"whitesmoke"}}>Message</label>
         <textarea name="message" rows="4" className="form-control" />
         <input
           type="submit"
