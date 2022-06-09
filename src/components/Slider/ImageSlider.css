@@ -39,12 +39,19 @@
 }
 
 .image {
-  width: 40vw;
+  width: 20vw;
   height: 40vh;
   border-radius: 1rem;
 }
+@media screen and (max-width: 1000px) {
 
-@media screen and (max-width: 375px) {
+  .image {
+    width: 40vw;
+    height: 40vh;
+    border-radius: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
   .image {
     width: 60vw;
     height: 40vh;

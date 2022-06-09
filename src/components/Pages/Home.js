@@ -20,7 +20,7 @@ const Home = () => {
         <div className="home-bottom">
           <div className="home-texts">
             <h4>Rogelio Flores</h4>
-            <h1>Experienced and Talented Work</h1>
+            <h1>Talented and Experienced</h1>
             <p>For an appointment, just reach out</p>
           </div>
           <div className="home-btns">
