@@ -14,7 +14,7 @@ import Chimneys from "./components/Pages/jobgroups/stonePaths"
 import Floors from "./components/Pages/jobgroups/stonePaths"
 import Mailbox from "./components/Pages/jobgroups/stonePaths"
 import Poolsides from "./components/Pages/jobgroups/RockPoolSides"
-
+// My Push example
 //TODO Web Template Studio: Add routes for your new pages here.
 const App = () => {
     return (
