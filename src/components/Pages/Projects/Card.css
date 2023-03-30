@@ -9,6 +9,10 @@
     transition: transform 200ms ease-in;
     margin-top: 3rem;
     background-color: rgb(10, 26, 52);
+    border-radius: 1rem;
+    border-color: darkblue;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .card-touch {
